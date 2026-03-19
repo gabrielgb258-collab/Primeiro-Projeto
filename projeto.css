@@ -1,0 +1,84 @@
+*{
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* box-sizing: border-box; faz com que o padding e margin nao aumentem a caixa, ou seja ela fica fixa no tamanho que eu colocar dentro da width e height*/
+}
+
+header{
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+    font-weight: 600; /*grossura da fonte*/
+    font-size: 24px;  /*tamanho da fonte*/
+    line-height: 29px; /*altura da fonte*/
+    color: #989D9C; /*cor da fonte*/
+    cursor: pointer; /*muda o cursor*/
+    margin-right: 23px; /*espaco entre os links*/
+}
+
+.button-header{
+    background: #665AE1; /*cor de fundo*/
+    border-radius: 20.5px; /*borda arredondada*/
+    width: 130px; /*largura*/
+    height: 41px; /*altura*/
+    border: none; /*sem borda*/
+    font-weight: 600; /*grossura da fonte*/
+    font-size: 24px;  /*tamanho da fonte*/
+    line-height: 29px; /*altura da fonte*/
+    color: #FFFFFF; /*cor da fonte*/
+    cursor: pointer; /*muda o cursor*/
+}
+
+.logo-image{
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block; 
+}
+
+section{
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1{
+    font-weight: 900; /*grossura da fonte*/
+    font-size: 100px;  /*tamanho da fonte*/
+    line-height: 122px; /*altura da fonte*/
+    color: #515151; /*cor da fonte*/
+}
+
+h2{
+    font-weight: 500; /*grossura da fonte*/
+    font-size: 58px;  /*tamanho da fonte*/
+    line-height: 71px; /*altura da fonte*/
+    color: #515151; /*cor da fonte*/
+}
+
+p{
+    font-weight: 400; /*grossura da fonte*/
+    font-size: 24px;  /*tamanho da fonte*/
+    line-height: 29px; /*altura da fonte*/
+    color: #848484; /*cor da fonte*/
+    width: 515px; /*largura*/
+    margin-top: 30px; /*espaco entre o paragrafo e o botao*/
+    margin-bottom: 65px;
+}
+
+.button-2{
+    background: #adff00;
+    border-radius: 20.5px; /*borda arredondada*/
+    height: 64px;
+    width: 239px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px); rgb (0, 0, 0, 0.25);
+    font-weight: 700; /*grossura da fonte*/
+    font-size: 28px;  /*tamanho da fonte*/
+    line-height: 34px; /*altura da fonte*/
+    color: #000000; /*cor da fonte*/
+    
+}
+

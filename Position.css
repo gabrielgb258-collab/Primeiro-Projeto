@@ -1,0 +1,55 @@
+/* POSTITION
+
+position: static (padrao - não aceita valores de top,bottpn,rigth e left)
+position: fixed - fixa o elemento na tela
+position: sticky - se movimenta junto com o scroll ( age como um adsivo, fixa o elemento onde eu determinar)
+position: relative - posição relativa a posição inicial dele
+position: absolute - posição absoluta(fixa) a algum elemento ou a pagina
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Pai{
+    height: 350px;
+    width: 350px;
+    background-color: #ff1396;
+}
+
+.Filho{
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00;
+}
+
+.Pai2{
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+}
+
+
+
+
+/* PSEUDO ELEMENTOS
+
+para usar o pseudo elementos use ::
+::after (SERIA ALGO QUE VAI APARECER DEPOIS DO TEXTO OU TAG QUE VC SELECIONAR)
+::before (SERIA ALGO QUE VAI APARECER ANTES DO TEXTO OU TAG QUE VC SELECIONAR)
+
+*/
+
+P::after{
+    content: "🚀";
+}
+
+
+
+p::before{
+    content: "🚀";
+}

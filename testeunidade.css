@@ -1,0 +1,44 @@
+button{
+    background-color: #ff00ff;
+    padding: 30px
+}
+.vo{
+    background-color: #ffffff;
+}
+
+
+
+
+
+.pai{
+    width: 50vh
+    height: 50vh
+    background-color: #295e29;
+    color: #833434;
+    font-size: 200px;
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 0.5em;
+}
+
+
+
+/*UNIDADE DE MEDIDAS 
+
+ABSOLUTAS
+px (PIXELS)
+cm (CENTIMETROS)
+mm (MILIMETROS)
+in (POLICIAS)
+
+RELATIVAS
+% (PORCENTAGEM)
+VW (view width) (TAMANHO RELATIVO AO LARGURA DA TELA)
+vh (view height) (TAMANHO RELATIVO A ALTURA DA TELA)
+em (TAMANHO RELATIVO AO PAI)
+rem (TAMANHO RELATIVO AO RAIZ DA ARVORE DO HTML)

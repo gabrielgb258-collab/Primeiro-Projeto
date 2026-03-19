@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+h1 {
+    color: red;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'reboto'; sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; seria para colocar sombra no texto */
+    
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'reboto'; sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+
+/* font-weight: seria paraa grossura da fonte,
+font-family: seria para escolher a fonte,
+font-style: seria para escolher o estilo da fonte
+text-transform: seria para transformar o texto(capitalize= letras com a primeira letra maiuscula) (uppercase= todas as letras maiusculas) (lowercase= todas as letras minusculas)
+text-decoration: seria para decorar o texto
+ */

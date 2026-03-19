@@ -1,0 +1,18 @@
+      /* style é estilo para css */
+        h1 {
+            color: red;
+            background: black;
+        }
+        /* color seria a cor e background seria a cor de fundo */
+
+        p {
+            color: blue;
+            font-size: 40px;
+        }
+        /* font-size seria o tamanho da fonte */
+
+        button {
+            background: green;
+            border-color: darkgreen;
+        }
+        /* background seria a cor de fundo e border-color seria a cor da borda */

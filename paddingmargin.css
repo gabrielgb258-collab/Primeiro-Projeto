@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box; /* box-sizing: border-box; faz com que o padding e margin nao aumentem a caixa, ou seja ela fica fixa no tamanho que eu colocar dentro da width e height*/
+}
+
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #ff1493;
+    padding: 60px; /* espaçamento interno (faz crescer a caixa)*/
+    margin: 20px; /* espaçamento externo (faz crescer a distancia entre as caixas)*/
+    border: 10px solid black; /* uma borda, solid seria uma borda solida)*/
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background: #9932cc;
+    padding: 60px; /* espaçamento interno (faz crescer a caixa)*/
+    margin: 20px; /* espaçamento externo (faz crescer a distancia entre as caixas)*/
+    border: 10px solid black; /* uma borda, solid seria uma borda solida)*/
+
+}
+
+/* margin-top (espaco de cima)
+margin-right (espaco de direita)
+margin-bottom (espaco de baixo)
+margin-left (espaco de esquerda)
+
+para o padding é a mesma coisa:
+
+padding-top (espaco de cima)
+padding-right (espaco de direita)
+padding-bottom (espaco de baixo)
+padding-left (espaco de esquerda)*/
+
+
+/* margin: 10px 20px 30px 40px; (cima, direita, baixo, esquerda)*/
+/* margin: 10px 20px 30px; (cima, direita e esquerda, baixo)*/
+/* margin: 10px 20px; (cima e baixo, direita e esquerda)*/
