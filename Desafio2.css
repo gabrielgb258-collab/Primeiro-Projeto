@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headertop{
+    color: #17233D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin-right: 32px;
+    margin-left: 42px;
+    margin-top: 47px;
+    cursor: pointer;
+    color: #17233D;
+    text-align: center;
+
+}
+.button-1{
+    background: #4cb538;
+    width: 124px;
+    height: 51px;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    cursor: pointer;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+img{
+    width: 596px;
+    height: 500px;
+    margin: 178px 0 0 121px;
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1{
+    color: #161a49;
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    margin-bottom: 47px;
+}
+
+p{
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 55px;
+    color: #4b505a;
+    
+}
+
+.button-2{
+    color: #6fbf44;
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+@media screen and (max-width: 900px){
+    .headertop{
+        display: none;
+    }
+
+    section{
+        padding: 0;
+        margin: 0;
+    }
+    .button-1{
+        width: 91px;
+        height: 31px;
+        margin-top: 17px; 
+        margin-left: 260px;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 1px;
+    }
+
+   img{
+    display: block;
+    width: 312px;
+    height: 288px;
+    position: fixed;
+    margin: 420px 39px 22px 39px;
+   }
+    
+   h1{
+    width: 278px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    margin: 76px 55px 0 55px;
+   }
+
+   p{
+    width: 304px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    margin: 29px auto 0 auto;
+   }
+
+   .button-2{
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    margin: 26px 139px 0 139px;
+   }
+
+
+}
