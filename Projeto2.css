@@ -1,0 +1,148 @@
+*{ /* *{} serve para selecionar tudo que tem na pagina */
+    margin: 0;  /* zerar a margem (para tirar qualquer espaco entre os elementos) */
+    padding: 0; /* zerar o padding (para tirar qualquer espaco entre os elementos) */
+    box-sizing: border-box; /* box-sizing: border-box; faz com que o padding e margin nao aumentem a caixa, ou seja ela fica fixa no tamanho que eu colocar dentro da width e height*/
+    font-family: 'oswald'; sans-serif;  /* fonte da pagina (letras) */
+}
+
+.wrapper{
+   height: 100vh; /*vh(viewport height) - altura da tela unidade relativas ao tamanho da tela 1vh equilave a 1% da altura da tela*/
+   width: 100vw; /*vw(viewport width) - largura da tela unidade relativas ao tamanho da tela 1vw equilave a 1% da largura da tela*/
+   /*aqui eu faço com que minha div ocupe toda a tela 100% da largura e 100% da altura*/
+}
+.lado-esquerdo{
+    display: inline-block; /* display inline-block faz com que um elemento seja exibido lado a lado com outros elementos  */
+    width: 60%; /* 60% da largura da tela */
+    padding-left: 136px; /* espaco entre o lado esquerdo e o conteudo(lembrando que o padding só altera oque está dentro da caixa) */
+    margin-top: 20%; /* espaco entre o topo e o conteudo */
+}
+
+.lado-direito{
+    display: inline-block;
+    background-color: rgba(93,93,125,0.16);/* cor de fundo com opacidade sendo Red,Green,Blue,Opacidade=RGBA(valor do opacidade vai de 0 a 1), 0.16 = 16% */
+    height: 100vh; /* altura da tela unidade relativas ao tamanho da tela 1vh equilave a 1% da altura da tela*/
+    width: 40%; /* 40% da largura da tela */
+    position: absolute; /* para posicionar o elemento onde eu quero que ele fique fixado*/
+    }
+
+img{
+    position: relative; /* para posicionar o elemento onde ele está relativo a posição inicial dele*/
+    top: 25%; /* 25% em relação ao topo da pagina*/
+    right: 130px;    /* 130px em relação ao lado direito da pagina*/
+}
+
+h1{
+    font-weight: 400; /* peso da fonte (espessura) */
+    font-size: 70px; /* tamanho da fonte */
+    line-height: 80px; /* altura da fonte */
+    color: #5d5d7d; /* cor da fonte */
+    width: 368px; /* largura da fonte */
+}
+
+p{
+    font-weight: 400; /* peso da fonte (espessura) */
+    font-size: 28px; /* tamanho da fonte */
+    line-height: 48px; /* altura da fonte */
+    color: #5d5d7d; /* cor da fonte */
+    opacity: 0.6; /* opacidade da fonte (transparencia) */
+    width: 540px; /* largura da fonte */
+    margin: 15px 0; /* atalho para aplicar o margin, primeiro valor(15px) em cima e embaixo, segundo valor(0) esquerda e direita */
+}
+
+button{
+    width: 269px;
+    height: 62px;
+    background: #9499ea; /* cor de fundo */
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959); /* sombra */
+    font-size: 24px; /* tamanho da fonte */
+    line-height: 36px; /* altura da fonte */
+    text-align: center; /*texto alinhado ao centro*/
+    color: #ffffff; /* cor da fonte */
+    border: none; /* sem borda */
+    border-radius: 30px; /* borda arredondada */
+    cursor: pointer; /* muda o cursor */
+}
+
+button:hover{
+    opacity: 0.9;
+} /* para deixar o botao mais brilhante ao passar o mouse por cima */
+
+button:active{
+    opacity: 0.5;
+}/* para deixar o botao mais brilhante ao clicar */
+
+a{
+    font-size: 28px; /* tamanho da fonte */
+    line-height: 41px; /* altura da fonte */
+    color: #5d5d7d; /* cor da fonte */
+    margin-right: 41px; /* espaço entre os links */
+    cursor: pointer; /* muda o cursor */
+}
+
+a:nth-child(2){ /* estou dizendo que quero modificar apenas o segundo filho da lista(ou seja ele está dentro de um pai) */
+    opacity: 0.4;
+    /* para deixar o botao mais brilhante ao passar o mouse por cima */
+}
+
+a:hover{
+    opacity: 0.4;
+    /* para deixar o botao mais brilhante ao passar o mouse por cima */
+}
+
+a:active{
+    opacity: 0.8;
+    /* para deixar o botao mais brilhante ao clicar */
+}
+
+header{
+    margin: 24px 0 0 57px;
+    /*margin atalho, sendo o primeiro cima, segundo esquerda, terceiro baixo e quarto direita*/
+}
+
+@media screen and (max-width: 900px){ /* faz com que eu adapte o layout quando a tela for menor que 900px(celular) */
+    .lado-esquerdo{
+        width: 100%; /* 100% da largura da tela */
+        height: 50%; /* 50% da altura da tela */
+        padding: 0; /* zerar o padding (para tirar qualquer espaco entre os elementos) */
+        margin: 0; /* zerar a margem (para tirar qualquer espaco entre os elementos) */
+    }
+    .lado-direito{
+        display: block; /* display block faz com que um elemento seja exibido abaixo dos outros elementos */
+        width: 100%; /* 100% da largura da tela */
+        height: auto; /* altura automática */
+        position: static; /* padrão */
+       
+    }
+    img{
+        position: static; /* padrão */
+        width: 271px;
+        height: 323px;
+        margin: 46px 53px 0px 53px;
+
+    }
+
+    header{
+        display: none; /* display none faz com que um elemento seja escondido */
+    }
+
+    h1{
+        font-size: 36px; /* tamanho da fonte */
+        line-height: 52px; /* altura da fonte */
+        width: auto; /* largura automática */
+        margin: 58px 50px 0 50px;
+        text-align: center; /*texto alinhado ao centro*/
+    }
+
+    p{
+        font-size: 14px; /* tamanho da fonte */
+        line-height: 24px; /* altura da fonte */
+        width: auto; /* largura automática */
+        text-align: center; /*texto alinhado ao centro*/
+        margin: 15px 40px 0 40px;
+    }
+
+    button{
+        display: block; /* ocupa toda linha */
+        margin: 15px auto;
+    }
+}
